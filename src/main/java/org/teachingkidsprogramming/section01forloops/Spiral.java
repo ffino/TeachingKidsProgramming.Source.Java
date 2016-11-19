@@ -9,6 +9,7 @@ public class Spiral
 {
   public static void main(String[] args)
   {
+    int j = MessageBox.askForNumericalInput("Quanti lati vuoi?");
     //    Show the tortoise --#1
     Tortoise.show();
     //    Make the tortoise go as fast as possible --#4
@@ -27,9 +28,10 @@ public class Spiral
       //         Change the pen color of the line the tortoise draws the next color on the Color Wheel --#6
       Tortoise.setPenColor(ColorWheel.getNextColor());     
       //         Move the tortoise 5 times the current line number you are drawing --#5
-      Tortoise.move(5 * i);
+      Tortoise.move(3 * i);
       //         Turn the tortoise 1/3 of 360 degrees to the right --#2
-      Tortoise.turn(360 / 3);
+      
+      Tortoise.turn(360.0 / j);
     }
     catch (RuntimeException re)
     {
