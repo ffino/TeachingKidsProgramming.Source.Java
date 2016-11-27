@@ -20,48 +20,48 @@ public class DeepDive01ForLoops
   @Test
   public void numbersDoNotNeedQuotes()
   {
-    Assert.assertEquals(42, ____);
+    Assert.assertEquals(42, 42);
   }
   @Test
   public void defaultWidthForTheTortoise() throws Exception
   {
-    Assert.assertEquals(Tortoise.getPenWidth(), ____);
+    Assert.assertEquals(Tortoise.getPenWidth(), 2);
   }
   @Test
   public void stringsNeedQuotes() throws Exception
   {
-    Assert.assertEquals("Green", ___);
+    Assert.assertEquals("Green", "Green");
   }
   @Test
   public void stringsCanIncludeSpaces() throws Exception
   {
-    Assert.assertEquals("This is a string", ___);
+    Assert.assertEquals("This is a string", "This is a string");
   }
   @Test
   public void changingThePenWidthTo5() throws Exception
   {
-    Tortoise.setPenWidth(____);
+    Tortoise.setPenWidth(5);
     Assert.assertEquals(5, Tortoise.getPenWidth());
   }
   @Test
   public void movingTheTortoise100Pixels() throws Exception
   {
     int start = Tortoise.getY();
-    Tortoise.move(____);
+    Tortoise.move(100);
     Assert.assertEquals(Tortoise.getY(), start - 100);
     // 'Hint: make sure you read the name of this method
   }
   @Test
   public void theTortoiseTurns21() throws Exception
   {
-    Tortoise.turn(____);
+    Tortoise.turn(21);
     Assert.assertEquals(21.0, Tortoise.getAngle(), 0.01);
   }
   @Test
   public void theTortoiseTurns15Twice() throws Exception
   {
-    Tortoise.turn(____);
-    Tortoise.turn(____);
+    Tortoise.turn(15);
+    Tortoise.turn(15);
     Assert.assertEquals(30.0, Tortoise.getAngle(), 0.01);
   }
   @Test
