@@ -75,7 +75,7 @@ public class DeepDive01ForLoops
   public void assigningVariables() throws Exception
   {
     int myFavoriteNumber = 101;
-    Assert.assertEquals(myFavoriteNumber, ____);
+    Assert.assertEquals(myFavoriteNumber, 101);
   }
   @Test
   public void combiningNumbers() throws Exception
