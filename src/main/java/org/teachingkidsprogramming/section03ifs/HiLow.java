@@ -16,6 +16,10 @@ public class HiLow
     //         Ask the user for a guess --#1
           int guess = MessageBox.askForNumericalInput("Can you guess a number between 1 and 100?");
     //         If the guess is correct --#4
+          if (guess < 1 || guess > 100){
+            MessageBox.showMessage("You cheat me!");
+            System.exit(0);
+          }
           if (guess == answer){
     //               Play a bell --#2
             Toolkit.getDefaultToolkit().beep();
