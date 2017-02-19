@@ -24,7 +24,7 @@ public class HiLow
     //               Play a bell --#2
             Toolkit.getDefaultToolkit().beep();
     //               Tell the user that they won the game  --#3
-            MessageBox.showMessage("YOU WON!");
+            MessageBox.showMessage("YOU WON!!!");
     //               and exit --#10
             System.exit(0);
           }
