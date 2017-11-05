@@ -12,10 +12,8 @@ public class PentagonCrazy
     //    Make the tortoise move as fast as possible --#3
     Tortoise.setSpeed(10);
     //    createColorPalette (recipe below) --#8.1
-    //
     createColorPalette();
     //    drawPentagon (recipe below) --#10.1
-    //
     drawPentagon();
   }
   private static void drawPentagon()
