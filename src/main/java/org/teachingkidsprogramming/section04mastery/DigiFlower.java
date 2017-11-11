@@ -13,7 +13,7 @@ public class DigiFlower
     //    Show the tortoise --#1
     Tortoise.show();
     //    Make the tortoise move as fast as possible --#7
-    Tortoise.setSpeed(5);
+    Tortoise.setSpeed(10);
     //    Make the background silver  --#8
     Tortoise.getBackgroundWindow().setBackground(PenColors.Grays.Silver);
     //    Make the line the tortoise draws 3 pixels wide --#15
